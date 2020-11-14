@@ -7,6 +7,11 @@ class Loop_Test{
 		sum = 0;
 		for (int i = 0; i < 10; sum+=i,System.out.println(sum),++i);
 
+		int j = 0;
+		for (sum = 0; sum<60; sum+=j,System.out.println(sum)) {
+			j++;
+		}
+
 		
 	}
 }
